@@ -14,7 +14,19 @@ for (int i = 0; i < array.Length; i++)
         count++;
     }
 }
+string[] output = new string[count];
+
+for (int i = 0, j = 0; i < array.Length; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        output[j] = array[i];
+        j++;
+    }
+}
+
 ReadLine();
+
 
 
 
