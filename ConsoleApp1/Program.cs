@@ -24,8 +24,9 @@ for (int i = 0, j = 0; i < array.Length; i++)
         j++;
     }
 }
-
+WriteLine($"[{string.Join(", ", array)}] -> [{string.Join(", ", output)}]");
 ReadLine();
+
 
 
 
